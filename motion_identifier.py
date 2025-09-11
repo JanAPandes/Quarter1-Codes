@@ -42,7 +42,7 @@ def convert_acceleration(value, unit):
     if unit == "m/s²":
         return value
     elif unit == "ft/s²":
-        value = 0.305*value
+        value = 0.3048*value
     elif unit == "km/s²":
         value = 1000*value
     elif unit == "mi/s²":
@@ -130,3 +130,4 @@ print(f"Velocity = {v_si:.3f} m/s")
 print(f"Acceleration = {a_si:.3f} m/s²")
 
 print(f"Motion Type = {motion}")
+
